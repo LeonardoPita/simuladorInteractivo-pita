@@ -127,4 +127,5 @@ function totalized() {
 
 selectProducts();
 totalized();
-alert(`${sumarized} whith a subtotal of ${subTotal} and a total of ${total}.`);
+total=total.toFixed(2);
+alert(`${sumarized} whith a subtotal of ${subTotal} and a total of ${total}`);
